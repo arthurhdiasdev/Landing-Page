@@ -19,7 +19,7 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 15px;
-    background-color: #fff;
+    background-color: #a4c6f8;
 }
 .navbar a{
     text-decoration: none;
@@ -55,15 +55,9 @@ navbar label{
         max-height: 100%;
     }
 }
-
-
-
-
-
-
-
-
-
+.list li:hover{
+    color: white;
+}
 .conteudo{
     margin-top: 60px;
     display: flex;
@@ -77,6 +71,7 @@ navbar label{
     width: 70%;
     justify-content: space-between;
     text-align: left;
+    
 }
 .main-right{
     display: flex;
@@ -87,21 +82,30 @@ navbar label{
 }
 .especificações{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: row; 
     justify-content: space-evenly;
     align-items: center;
     height: 300px;
     list-style: none;
 }
 .especificações li{
-    background-color: #e2e1e1;
     border: solid transparent;
     border-radius: 5px;
-    color: #fff;
-    transform: scale(1.5);
+    color: #000;
     text-align: left;
     padding: 5px;
-    font-size: small;
-    box-shadow: rgb(190, 190, 190) 0 4px 15px 0;
+    font-size: 1rem;
+}
+
+.especificações li:hover{
+    background-color: #a4c6f8;
+    border: solid transparent;
+    border-radius: 5px;
+    color: #ffffff;
+    transform: scale(1.2);
+    text-align: left;
+    padding: 5px;
+    font-size: 1rem;
+    box-shadow: rgb(163, 163, 163) 0 3px 15px 0;
+    transition: 0.5s;
 }
